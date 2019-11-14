@@ -1,0 +1,15 @@
+<button (click)="addItem()">Add new item</button>
+<button (click)="loadAll()">Load</button>
+
+<ul>
+  <li *ngFor="let user of users">
+    {{ user.name }}
+  </li>
+</ul>
+
+<h3>Users 2</h3>
+<ul>
+  <li *ngFor="let user of users2">
+    {{ user.name }}
+  </li>
+</ul>
